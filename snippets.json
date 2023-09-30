@@ -16,7 +16,7 @@
 		"prefix": "flp",
 		"body": [
 			"for(int ${1:i} = 0; ${1:i} < ${2:}; ${1:i}++){",
-			"\t${3:}",
+			"\t$0",
 			"}"
 		],
 		"description": "Java for-loop template"
@@ -34,7 +34,7 @@
 			"\t\tf.nextLine();",
 			"",
 			"\t\twhile(n-- > 0){",
-			"\t\t\t$1",
+			"\t\t\t$0",
 			"\t\t}",
 			"\t}",
 			"}"
