@@ -29,7 +29,7 @@
 			"",
 			"public class App {",
 			"\tpublic static void main(String[] args) throws Exception {",
-			"\t\tScanner f = new Scanner(new File(\"miguel.dat\"));",
+			"\t\tScanner f = new Scanner(new File(\"$1.dat\"));",
 			"\t\tint n = f.nextInt();",
 			"\t\tf.nextLine();",
 			"",
